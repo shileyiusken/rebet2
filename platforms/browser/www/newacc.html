@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Registration system </title>
-  <link rel="stylesheet" type="text/css" href="style1.css">
-</head>
-<body>
-  <div class="header">
-  	<h2>Register</h2>
-  </div>
-	
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="bottom">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding"></div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="Register" class="page">
+        <div class="page-content">
+            <div class="content-block">
   <form method="post" action="index.html">
-  	
+
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">
@@ -27,12 +35,12 @@
   	  <label>Confirm password</label>
   	  <input type="password" name="password_2">
   	</div>
+    <p>
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
+  </p>
   	<p>
-  		Already a member? <a href="index.html">Sign in</a>
+  		Already a member? <a href="#" class="back link">Sign in</a>
   	</p>
   </form>
-</body>
-</html>
