@@ -21,7 +21,8 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- Your app title -->
-    <title>ReBet</title>
+    <title>RayBet</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
         http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
@@ -35,6 +36,7 @@
 
 <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
+
     <div class="statusbar-overlay"></div>
 
     <!-- Panels overlay-->
@@ -42,9 +44,10 @@
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
         <div class="content-block">
-            <p>Left panel content goes here</p>
+            <p>Profile</p>
         </div>
     </div>
+    
 
     <!-- Views -->
     <div class="views">
@@ -54,7 +57,7 @@
             <div class="navbar">
                 <div class="navbar-inner">
                     <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-                    <div class="center sliding">ReBet</div>
+                    <div class="center sliding">RayBet</div>
                     <div class="right">
                         <!--
                           Right link contains only icon - additional "icon-only" class
@@ -67,11 +70,33 @@
             <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
             <div class="pages navbar-through toolbar-through">
                 <!-- Page, "data-page" contains page name -->
+
                 <div data-page="index" class="page">
                     <!-- Scrollable page content -->
                     <div class="page-content">
                         <div class="content-block">
-                            <p>Page content goes here</p>
+                            
+                            
+                    <h1 style="text-align:center; font-family:verdana"> WELCOME TO RayBet</h1>
+                    <p></p>
+                    
+                    <div class="loginbox">
+                        
+                    <form>
+                        <p>Username</p>
+                        <input type="text" name="" placeholder="Enter Username">
+                        <p>Password</p>
+                        <input type="password" name="" placeholder="Enter Password">
+                        <input type="submit" name="" value="Login">
+                        
+                        <a href="#">Lost your password?</a><br>
+                    
+                        <a href="newacc.html">Don't have an account?</a>
+                    </form>
+                        
+                    </div>
+                  
+                    <p></p>
                             <!-- Link to another page -->
                             <a href="about.html">About app</a>
                         </div>
